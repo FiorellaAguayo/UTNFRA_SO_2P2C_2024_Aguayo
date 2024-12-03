@@ -22,7 +22,7 @@ ssh -o StrictHostKeyChecking=accept-new vagrant@$(hostname -I | awk '{print $1}'
 echo "Conexión SSH establecida con éxito."
 
 # Ir a la carpeta de trabajo Ansible
-cd ~/UTN-FRA_SO_Examenes/202406/ansible
+cd /home/vagrant/UTN-FRA_SO_Examenes/202406/ansible
 echo "Directorio actual: $(pwd)"
 
 # Crear roles de Ansible
